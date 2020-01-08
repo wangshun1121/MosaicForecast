@@ -79,6 +79,6 @@ RUN . downloads_docker.sh
 # 7. wrapper
 COPY *.py *.R *.md ./
 RUN chmod +x *py && chmod +x *.R
-COPY k24.umap.wg.bw ./
+# COPY k24.umap.wg.bw ./
 
  
